@@ -1,0 +1,51 @@
+{
+    "name": "@lucid/root",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build:tracker": "turbo --filter tracker",
+        "build": "turbo --filter \"./packages/*\" build",
+        "api:build": "turbo --filter api build",
+        "web:build": "turbo --filter web build",
+        "dev:tracker": "turbo --filter \"./packages/*\" dev",
+        "dev": "dotenv -- turbo --filter \"./apps/*\" dev",
+        "web:dev": "dotenv -- turbo --filter web dev",
+        "api:dev": "dotenv -- turbo --filter api dev",
+        "fmt": "pnpm biome check . && pnpm biome format . --write",
+        "test": "turbo test",
+        "typecheck": "turbo typecheck",
+        "deploy:api": "turbo --filter api deploy",
+        "generate": "dotenv -- turbo --filter db generate",
+        "migrate": "dotenv -- turbo --filter db migrate",
+        "clickhouse:migrate": "dotenv -- turbo --filter clickhouse migrate",
+        "studio": "pnpm --filter db studio"
+    },
+    "pnpm": {
+        "overrides": {
+            "@opentelemetry/api": "1.4.1",
+            "@opentelemetry/core": "1.13.0",
+            "@opentelemetry/exporter-trace-otlp-grpc": "0.39.1",
+            "@opentelemetry/resources": "1.13.0",
+            "@opentelemetry/sdk-trace-base": "1.13.0",
+            "@opentelemetry/sdk-trace-node": "1.13.0",
+            "@opentelemetry/semantic-conventions": "1.13.0"
+        }
+    },
+    "dependencies": {
+        "@biomejs/biome": "1.0.0",
+        "@changesets/changelog-github": "^0.4.8",
+        "@changesets/cli": "^2.26.1",
+        "@commitlint/config-conventional": "^17.6.6",
+        "@ianvs/prettier-plugin-sort-imports": "^4.0.2",
+        "@manypkg/cli": "^0.20.0",
+        "@types/node": "^18.15.13",
+        "@types/prettier": "^2.7.3",
+        "dotenv-cli": "^7.2.1",
+        "prettier": "^2.8.8",
+        "prettier-plugin-tailwindcss": "^0.3.0",
+        "tsup": "^6.7.0",
+        "turbo": "^1.9.3",
+        "typescript": "^5.1.6",
+        "vitest": "^0.31.0"
+    }
+}

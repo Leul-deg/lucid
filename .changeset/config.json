@@ -1,0 +1,9 @@
+{
+    "commit": false,
+    "updateInternalDependencies": "patch",
+    "linked": [],
+    "access": "public",
+    "baseBranch": "main",
+    "ignore": ["web", "@lucid/api", "@lucid/clickhouse", "@lucid/email"],
+    "changelog": "@changesets/cli/changelog"
+}

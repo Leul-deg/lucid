@@ -1,0 +1,17 @@
+{
+  "cSpell.words": [
+    "Ababa",
+    "Addis",
+    "clsx",
+    "execa",
+    "fkey",
+    "Lucid",
+    "lucide",
+    "pkey",
+    "tablespace",
+    "yxxx"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "liveServer.settings.port": 5501,
+  "biome.enabled": true
+}
