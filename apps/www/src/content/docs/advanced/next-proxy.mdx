@@ -1,0 +1,29 @@
+---
+title: Next JS Proxy
+---
+
+You can use Next.js to route all analytics traffic through your own server and domain. This will reduce DNS lookups, as well as prevent Adblockers from blocking requests.
+
+By default the tracker sends request to lucid api so change that on that by passing "/api/lucid" to the config host paramter.
+
+```ts
+import { lucid } from "@lucid/tracker";
+lucid.record({
+  host: "/api/lucid",
+});
+```
+
+Then add a rewrite to your Next.js config.
+
+```ts
+module.exports = {
+  async rewrites() {
+    return [
+      {
+        source: "/api/lucid",
+        destination: "https://lucid.io/api/lucid",
+      },
+    ];
+  },
+};
+```
