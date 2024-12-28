@@ -1,33 +1,26 @@
 # Lucid
 
-## Crafted with care, privacy first, open source web analytics
+## Crafted with care, privacy-first, open-source web analytics
 
 ![npm](https://img.shields.io/npm/v/@lucid/tracker) ![npm bundle size](https://img.shields.io/bundlephobia/min/@lucid/tracker) ![GitHub license](https://img.shields.io/github/license/Lucid/lucid) ![GitHub issues](https://img.shields.io/github/issues/Lucid/lucid) ![GitHub stars](https://img.shields.io/github/stars/Lucid/lucid)
 
-## What is Lucid?
+## Overview
 
-Lucid is a **Open Source** and **Privacy-First** web analytics that aims to provide simple yet can be powerful based on your needs. Admittedly it has beautiful dashboard and it comes with api that you can use to get your data back anytime you want for any purpose.
+Lucid is a modern, **open-source**, and **privacy-focused** web analytics platform designed to deliver clear, actionable insights without compromising user data. It features an elegant real-time dashboard and intuitive APIs, allowing full ownership and seamless export of your telemetry data whenever needed.
 
-## Why Lucid?
+## Key Features
 
-- **Privacy first**: Lucid is GDPR compliant out of the box. And if you want to customize your privacy settings and use cookie notices you have that option too.
-
-- **Own your data**: We think you should be in control of your data, so we made it easy for you to get your data back anytime you want with our simple APIs.
-
-- **Events and product analysis features**: We offer powerful event and product analysis features that go beyond simple pageviews. But if you're not into that kind of thing, no worries. Lucid can be as simple or as complex as you need it to be.
-
-- **Developer friendly**: Almost zero config to get started and easy to add to your apps and frameworks.
-
-- **Your mom will be impressed**: Maybe not really, but we think it worth trying.
-
-- **More in the making**: We're always working on new and exciting features to make Lucid even better. So stay tuned, because the best is yet to come.
+- **Privacy & Compliance**: Fully GDPR-compliant out of the box. Tailor your privacy defaults or enable consent-based tracking effortlessly.
+- **Complete Data Ownership**: Retain full control of your analytics with simple APIs to query or export your raw event data anytime.
+- **Advanced Telemetry**: Perform deep event tracking, product analytics, and performance insights beyond basic pageview metrics.
+- **Developer-Centric Design**: Requires zero initial configuration to get started, integrating smoothly with modern web apps and frameworks.
+- **Continuous Evolution**: Actively developed with regular feature additions, performance enhancements, and expanded framework support.
 
 ## Self Hosting
 
-Self-hosting made easy (coming soon): Self-hosting the whole thing can be a pain. That's why we're working hard to separate the marketing site from the dashboard to make it easy for you to host Lucid on your own. Stay tuned for updates on this!
-
-Hosted version (for free): In the meantime, you can use our hosted version of [Lucid](https://lucid.io) for free.
+- **Self-Hosted Deployment**: We are streamlining self-hosting to make running your own backend infrastructure straightforward and lightweight.
+- **Hosted Service**: Get started instantly with our hosted version of [Lucid](https://lucid.io).
 
 ## Contributing
 
-See [here](./.github/CONTRIBUTING.md) for more information on how to contribute to Lucid.
+We welcome contributions! Please review our [Contributing Guide](./.github/CONTRIBUTING.md) to get started with development.
