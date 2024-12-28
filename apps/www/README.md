@@ -1,0 +1,14 @@
+# Lucid Site
+
+## Introduction
+
+this is the hosted version of the lucid library. You can also self host it by cloning the repo and running the following commands:
+
+```bash
+pnpm i
+pnpm run build
+```
+
+## Contributing
+
+We'd love to have your helping hand on `lucid`! fork the repo and create a pull request.
