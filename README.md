@@ -20,7 +20,3 @@ Lucid is a modern, **open-source**, and **privacy-focused** web analytics platfo
 
 - **Self-Hosted Deployment**: We are streamlining self-hosting to make running your own backend infrastructure straightforward and lightweight.
 - **Hosted Service**: Get started instantly with our hosted version of [Lucid](https://lucid.io).
-
-## Contributing
-
-We welcome contributions! Please review our [Contributing Guide](./.github/CONTRIBUTING.md) to get started with development.
