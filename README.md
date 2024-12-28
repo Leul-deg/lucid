@@ -4,10 +4,6 @@
 
 ![npm](https://img.shields.io/npm/v/@lucid/tracker) ![npm bundle size](https://img.shields.io/bundlephobia/min/@lucid/tracker) ![GitHub license](https://img.shields.io/github/license/Lucid/lucid) ![GitHub issues](https://img.shields.io/github/issues/Lucid/lucid) ![GitHub stars](https://img.shields.io/github/stars/Lucid/lucid)
 
-<p align="center">
-  <img src="./images/dark-logo-v1.png" alt="screenshot" height="300" />
-</p>
-
 ## What is Lucid?
 
 Lucid is a **Open Source** and **Privacy-First** web analytics that aims to provide simple yet can be powerful based on your needs. Admittedly it has beautiful dashboard and it comes with api that you can use to get your data back anytime you want for any purpose.
